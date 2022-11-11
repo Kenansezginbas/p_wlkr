@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:p_wlkr/widgets/black_icon_button.dart';
 import 'package:p_wlkr/widgets/filter_icon_button.dart';
+import 'package:p_wlkr/widgets/item_save_button.dart';
 import 'package:p_wlkr/widgets/white_icon_button.dart';
 import 'package:p_wlkr/widgets/black_title_button.dart';
 import 'package:p_wlkr/widgets/white_title_button.dart';
@@ -35,7 +36,9 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 30),
             WhiteIconButton(onPressed: () {}),
             SizedBox(height: 30),
-            FilterIconButton(onPressed: () {})
+            FilterIconButton(onPressed: () {}),
+            SizedBox(height: 30),
+            ItemSaveButton(onPressed: () {})
           ],
         ),
       ),
